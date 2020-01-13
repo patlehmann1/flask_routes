@@ -11,5 +11,4 @@ def hello_user(name):
 
 @app.route('/square_a_number/<int:number>')
 def square_a_number(number):
-    squared = number**2
-    return f'{number} squared is {squared}'
+    return f'{number} squared is {number**2}'
